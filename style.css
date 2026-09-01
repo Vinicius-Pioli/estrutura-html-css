@@ -1,0 +1,81 @@
+/* Configurações Gerias*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho e Navegação*/
+header {
+    background-color: #2c3e50;
+    color:aliceblue;
+    padding: 20 px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: darkgray;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color o.3s;
+}
+
+nav a:hover {
+    color:aqua;
+
+}
+
+/* Conteudo Principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40 px auto;
+}
+section {
+    background: aliceblue;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #000000;
+}
+section h2{
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+footer {
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
